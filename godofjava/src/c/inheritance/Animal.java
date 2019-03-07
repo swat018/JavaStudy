@@ -5,7 +5,7 @@ public class Animal {
 	String kind;
 	int legCount;
 	int iq;
-	bool hasWing;
+	boolean hasWing;
 	public void move() {
 		
 	}

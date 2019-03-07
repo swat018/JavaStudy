@@ -1,5 +1,5 @@
 package c.inheritance;
 
-public class dog extends animal {
+public class dog extends Animal {
 	
 }

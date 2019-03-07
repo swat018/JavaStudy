@@ -1,5 +1,4 @@
 package com.godofjava.chapter11;
-import c.api.*;
 
 public class APICheck {
 	public static void main(String[] args) {

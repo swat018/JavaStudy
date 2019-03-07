@@ -5,5 +5,4 @@ public class InheritanceObject {
 		InheritanceObject object = new InheritanceObject();
 		System.out.println(object.toString());
 	}
-
 }
