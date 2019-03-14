@@ -1,4 +1,4 @@
-package com.godofjava.chapter8;
+package com.godofjava.chapter12;
 
 public class ReferenceConstructor {
 	public static void main(String[] args) {

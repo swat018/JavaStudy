@@ -1,4 +1,4 @@
-package com.godofjava.chapter8;
+package com.godofjava.chapter12;
 
 public class Student {
 	String name, address, phone, email;
