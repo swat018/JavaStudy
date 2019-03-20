@@ -7,7 +7,7 @@ public class Calculator {
 			calc.printDivide(1,2);
 			calc.printDivide(1,0);
 		} catch(Exception e) {
-			System.out.println(e.getMessage());
+			System.err.println(e.getMessage());
 		}
 
 	}
