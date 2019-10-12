@@ -1,0 +1,25 @@
+package com.godofjava.chapter27;
+
+import java.io.Serializable;
+
+public class SerialDTO implements Serializable{
+	static final long serialVersionUID = 1L;
+	private String bookType = "IT";
+	private String bookName;
+	private int bookOrder;
+	private boolean bestSeller;
+	private long soldPerDay;
+	public SerialDTO(String bookName, int bookOrder, boolean bestSeller, long soldPerDay) {
+		super();
+		this.bookName = bookName;
+		this.bookOrder = bookOrder;
+		this.bestSeller = bestSeller;
+		this.soldPerDay = soldPerDay;
+	}
+	@Override
+	public String toString() {
+		return "SerialDTO [bookName=" + bookName + ", bookOrder=" + bookOrder + 
+				", bookSelller=" + bestSeller + ", soldPerDay=" + soldPerDay + ", bookType=" + bookType + "]"; 
+	}
+} 
+   
